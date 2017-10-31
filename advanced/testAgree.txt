@@ -1,0 +1,33 @@
+PART 1
+
+Install Advanced Yii2 template;
+Working only with "fronetend" directory;
+Create UserList action in SiteController;
+Show all users with all fields in database (all dates convert to type: 'May 27, 1995' using Yii formatter) if the user is logged in. If not show only the link to login page. Check user authorisation using global Yii Identity component;
+Create your own pagination widget to show users (10 users by page) !
+
+### DO NOT USE Yii2 LinkPager Widget; ###
+
+PART 2
+Create "GridView" action in SiteController;
+Show all users using GridView Widget (without any actions such as View, Delete and Edit);
+
+PART 3
+Create "ActiveForm" action in SIteController;
+Create User Registration form using yii2 ActiveForm widget(username, email, password);
+Add custom validation using Yii ActiveForm JS:
+username: max-length: 50, min-length: 5, symbols: [Aa-Zz_-],
+email: should only end with "@gmail.com",
+password: should have at least 1 capital letter
+
+DO NOT USE MASKS!!!
+
+PART 4
+Create new branch with your name in the repository;
+Push there your updates;
+
+Sources
+
+https://yiiframework.com.ua/ru/doc/guide/2/start-installation/
+
+http://www.yiiframework.com/doc-2.0/index.html
